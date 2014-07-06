@@ -14,21 +14,30 @@
 		538907FE19681EFF003694BE /* FailedBankCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 538907F819681EFF003694BE /* FailedBankCD.xcdatamodeld */; };
 		538907FF19681EFF003694BE /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 538907FB19681EFF003694BE /* FailedBankDetails.m */; };
 		5389080019681EFF003694BE /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 538907FD19681EFF003694BE /* FailedBankInfo.m */; };
-		53B1B1081968FCED001EDA3B /* Banks.json in Copy Files */ = {isa = PBXBuildFile; fileRef = 53B1B1071968FC9D001EDA3B /* Banks.json */; };
+		53B1B10A1969060A001EDA3B /* Banks.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53B1B1071968FC9D001EDA3B /* Banks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		538907E019681E95003694BE /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = usr/share/man/man1;
-			dstSubfolderSpec = 16;
+			dstSubfolderSpec = 0;
 			files = (
 				538907F219681E95003694BE /* CoreDataTutorial2.1 in Copy Files */,
-				53B1B1081968FCED001EDA3B /* Banks.json in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		53B1B109196905FB001EDA3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				53B1B10A1969060A001EDA3B /* Banks.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -120,6 +129,7 @@
 				538907DE19681E95003694BE /* Sources */,
 				538907DF19681E95003694BE /* Frameworks */,
 				538907E019681E95003694BE /* Copy Files */,
+				53B1B109196905FB001EDA3B /* CopyFiles */,
 			);
 			buildRules = (
 			);
