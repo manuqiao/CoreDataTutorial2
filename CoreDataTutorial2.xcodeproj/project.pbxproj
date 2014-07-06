@@ -10,21 +10,24 @@
 		538907E619681E95003694BE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538907E519681E95003694BE /* CoreData.framework */; };
 		538907E819681E95003694BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538907E719681E95003694BE /* Foundation.framework */; };
 		538907EB19681E95003694BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 538907EA19681E95003694BE /* main.m */; };
-		538907F219681E95003694BE /* CoreDataTutorial2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 538907F119681E95003694BE /* CoreDataTutorial2.1 */; };
+		538907F219681E95003694BE /* CoreDataTutorial2.1 in Copy Files */ = {isa = PBXBuildFile; fileRef = 538907F119681E95003694BE /* CoreDataTutorial2.1 */; };
 		538907FE19681EFF003694BE /* FailedBankCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 538907F819681EFF003694BE /* FailedBankCD.xcdatamodeld */; };
 		538907FF19681EFF003694BE /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 538907FB19681EFF003694BE /* FailedBankDetails.m */; };
 		5389080019681EFF003694BE /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 538907FD19681EFF003694BE /* FailedBankInfo.m */; };
+		53B1B1081968FCED001EDA3B /* Banks.json in Copy Files */ = {isa = PBXBuildFile; fileRef = 53B1B1071968FC9D001EDA3B /* Banks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		538907E019681E95003694BE /* CopyFiles */ = {
+		538907E019681E95003694BE /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
 			files = (
-				538907F219681E95003694BE /* CoreDataTutorial2.1 in CopyFiles */,
+				538907F219681E95003694BE /* CoreDataTutorial2.1 in Copy Files */,
+				53B1B1081968FCED001EDA3B /* Banks.json in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -116,7 +119,7 @@
 			buildPhases = (
 				538907DE19681E95003694BE /* Sources */,
 				538907DF19681E95003694BE /* Frameworks */,
-				538907E019681E95003694BE /* CopyFiles */,
+				538907E019681E95003694BE /* Copy Files */,
 			);
 			buildRules = (
 			);
