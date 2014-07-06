@@ -41,6 +41,7 @@
 		538907FB19681EFF003694BE /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
 		538907FC19681EFF003694BE /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
 		538907FD19681EFF003694BE /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
+		53B1B1071968FC9D001EDA3B /* Banks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Banks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				538907EA19681E95003694BE /* main.m */,
+				53B1B1071968FC9D001EDA3B /* Banks.json */,
 				538907F119681E95003694BE /* CoreDataTutorial2.1 */,
 				538907F819681EFF003694BE /* FailedBankCD.xcdatamodeld */,
 				538907FA19681EFF003694BE /* FailedBankDetails.h */,
@@ -273,6 +275,7 @@
 				538907F719681E95003694BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
